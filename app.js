@@ -13,5 +13,5 @@ app.get("/", function(req,res){
 
 //cofigurar el puerto usado para el servidor local
 app.listen(3000, function(){
-    console.log("El servidor es http:\\localhost:3000");
+    console.log("El servidor es http://127.0.0.1:5500");
 })
