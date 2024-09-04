@@ -1,0 +1,360 @@
+body {
+    font-family: sans-serif;
+    font-size: 15px;
+    color: white;
+    line-height: 20px;
+    background-color: rgb(9, 9, 59);
+    width: 100%;
+}
+
+/**aca comienza la cabecera**/
+
+header {
+    background-color: #364352;
+    padding: 16px 0;
+}
+
+header img {
+    width: 275px;
+    height: 100%;
+    float: right;
+    margin: 50px;
+    border: 2px solid black;
+}
+
+.mano {
+    width: 50%;
+    height: 50%;
+    border-radius: 50%;
+    margin: 20px;
+
+}
+
+header h1 {
+    color: white;
+    font-size: 80px;
+    font-weight: 100;
+    font-style: italic;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman';
+    display: inline-block;
+    bottom: 35px;
+    margin-left: 50px;
+}
+
+/**aca comienza la barra navegadora**/
+nav {
+    background-color: #49c5eb;
+
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+nav ul li {
+    flex-grow: 1;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    padding: 3px 6px;
+    display: block;
+    text-align: center;
+}
+
+nav ul li a:hover {
+    background-color: rgba(202, 54, 54, 0.3);
+
+}
+
+
+
+nav ul li a.activo {
+    background-color: #4c76a5;
+}
+
+/**aca termina la barra nav**/
+
+/**aca comienza el contenido del home**/
+.holder {
+    max-width: 960px;
+    margin: 0 auto;
+}
+
+h2 {
+    color: #9a98f7;
+    font-weight: 400;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 35px;
+}
+
+.testimonios {
+    width: 25%;
+}
+
+.columnas {
+    display: flex;
+    justify-content: space-between;
+}
+
+.testimonio {
+    background-color: #ccc;
+    padding: 16px;
+
+}
+
+.testimonio .cita {
+    font-weight: bold;
+    font-style: italic;
+    font-size: 20px;
+    display: block;
+
+}
+
+.testimonio .autor {
+    font-size: 10px;
+    text-align: center;
+    display: block;
+    margin: 12px;
+    font-size: 15px;
+}
+
+/**aca termina el contenido del home*/
+
+/**aca comienza la seccion Organizacion*/
+
+.organizacion {
+    font-size: 12px;
+
+}
+
+.personas {
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.persona {
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    width: 18%;
+    text-align: center;
+    padding: 13px;
+    box-sizing: border-box;
+    background-color: #364352;
+}
+
+.persona img {
+    border-radius: 50%;
+    max-width: 60%;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.5);
+
+}
+
+.persona h5 .persona h6 {
+    margin: 0;
+    font-weight: normal;
+    color: #2e64a1;
+}
+
+.persona h5 {
+    font-size: 14px;
+    margin-top: 5px;
+
+}
+
+.persona h6 {
+    font-size: 11px;
+    font-style: italic;
+}
+
+.persona p {
+    color: #666;
+    font-size: 10px;
+}
+
+/*ACA EMPIEZA SECCION TEMAS*/
+
+.temas {
+    border: 1px solid#ccc;
+    border-radius: 10px;
+    padding: 16px;
+    margin: 16px;
+    display: flex;
+    gap: 32px;
+    align-items: center;
+    background-color: #ccc;
+
+}
+
+.temas .info h4 {
+    color: #2e64a1;
+    font-weight: 500;
+    font-style: italic;
+    border-bottom: 1px solid #2e64a1;
+    padding-bottom: 10px;
+}
+
+.temas .info p {
+    font-size: 13px;
+
+}
+
+.temas img {
+    border-radius: 13px;
+    display: block;
+    max-width: 225px;
+}
+
+.temas:nth-child(even) {
+    flex-direction: row-reverse;
+}
+
+/*aca termina la seccion Temas*/
+
+/*ACA COMIENZA LA SECCION GALERIA*/
+
+.galeria {
+    display: flex;
+    flex-wrap: wrap;
+  
+
+}
+
+.galeria img {
+    width: 18%;
+    border: 1px solid #ddd;
+    padding: 0.3em;
+    box-sizing: border-box;
+    margin-top: 20px;
+    margin-right: 2%;
+}
+
+
+/**comienza a tomar vida el formulario**/
+
+small {
+    display: none;
+}
+
+.container {
+    max-width: 500px;
+    width: 450px;
+    margin-left: 400px;
+    padding: 25px;
+    box-sizing: border-box;
+}
+
+.container {
+    justify-content: center;
+    padding: 5px;
+    background: linear-gradient(130deg, green, blue);
+    border-radius: 5px;
+    margin-top: 5px;
+}
+
+.container .title {
+    font-size: 25px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.container form {
+    margin: 10px 20px 10px;
+    width: 500px;
+    height: 100%;
+    border-radius: 5px;
+    grid-row: auto;
+}
+
+form .form-group {
+    margin-top: 10px;
+    margin-bottom: 5px;
+    margin-left: 60px;
+    width: calc(100%/2 - 20px);
+}
+
+form span {
+    display: block;
+    font-weight: 500px;
+    margin-bottom: 5px;
+}
+
+.form-group input {
+    height: 20px;
+    width: 100%;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    padding-left: 15px;
+    border-bottom-width: 2px;
+    transition: all 0.3s ease;
+
+}
+
+.form-group input:focus,
+.form-group input:valid {
+    border-color: green;
+}
+
+form .button {
+    width: 100%;
+    height: 40px;
+    margin: 40px 0;
+}
+
+
+form .button input {
+    width: 100px;
+    height: 40px;
+    outline: none;
+    cursor: pointer;
+    margin-left: 20px;
+
+}
+
+.was-validated small {
+    display: block;
+    color: red;
+}
+
+/**aca comienza el footer**/
+
+footer {
+    background-color: #ccc;
+    clear: both;
+    color: #333;
+    text-align: center;
+    padding: 5px 0;
+    margin-top: 20px;
+}
+
+@media(max-width:584px) {
+    .container {
+        max-width: 100%;
+    }
+
+    form .form-group {
+        margin-bottom: 15px;
+        width: 100%;
+    }
+
+    .container form {
+        max-height: 400px;
+        overflow: scroll;
+    }
+
+    .container form::-webkit-scrollbar {
+        width: 0;
+
+    }
+
+    form .button {
+        margin: 20px 0;
+
+    }
+
+}
+
