@@ -1,6 +1,6 @@
 import React from 'react';  
 
-const galeria = () => {  
+const Galeria = () => {  
   return (  
       <div>
       <header>  
@@ -61,4 +61,4 @@ const galeria = () => {
 } 
 
 
-export default galeria;  
+export default Galeria;  

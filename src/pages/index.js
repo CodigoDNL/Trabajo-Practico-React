@@ -1,6 +1,6 @@
 import React from 'react';
 
-const index = () => {
+const Index = () => {
         return(
         <div>
             <header>
@@ -55,4 +55,4 @@ const index = () => {
         );
     };
 
-export default index;
+export default Index;

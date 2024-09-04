@@ -1,6 +1,6 @@
 import React from 'react';  
 
-function RegistrationForm() {  
+function Ingresar() {  
   const handleSubmit = (e) => {  
     const form = e.target;  
     if (form.checkValidity() === false) {  
@@ -78,4 +78,4 @@ function RegistrationForm() {
   );  
 }  
 
-export default RegistrationForm;  
+export default Ingresar;  

@@ -1,6 +1,6 @@
 import React from 'react';  
 
-const organizacion = () => {  
+const Organizacion = () => {  
   return (  
     <div>  
       <header>  
@@ -76,4 +76,4 @@ const organizacion = () => {
   );  
 };  
 
-export default organizacion;  
+export default Organizacion;  

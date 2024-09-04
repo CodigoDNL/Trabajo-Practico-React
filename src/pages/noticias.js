@@ -1,6 +1,6 @@
 import React from 'react';  
 
-const noticias = () => {  
+const Noticias = () => {  
   return (  
     <div>  
      <header>  
@@ -79,4 +79,4 @@ const noticias = () => {
   );  
 }  
 
-export default noticias;  
+export default Noticias;  

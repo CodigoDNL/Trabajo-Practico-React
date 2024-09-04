@@ -1,6 +1,6 @@
 import React from 'react';  
 
-function temas() {  
+function Temas() {  
   return (  
     <main>  
       <header>  
@@ -64,4 +64,4 @@ function temas() {
   );  
 }  
 
-export default temas;  
+export default Temas;  
