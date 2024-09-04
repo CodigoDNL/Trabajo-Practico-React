@@ -5,7 +5,7 @@ const galeria = () => {
       <div>
       <header>  
         <div className="holder">  
-          <img src="assets/img/dia mundial sin tabaci.jpg" alt="Imagen del día mundial sin tabaco" />  
+          <img src="images/dia mundial sin tabaci.jpg" alt="Imagen del día mundial sin tabaco" />  
           <h1>No es bueno</h1>  
         </div>  
       </header>  
@@ -25,42 +25,38 @@ const galeria = () => {
 
       <div className="row">  
         <div className="column">  
-          <img src="assets/img/fumando1jpg.jpg" width="200" height="250" alt="Imagen fumando 1" />  
-          <img src="assets/img/fumando2.jpg" width="200" height="250" alt="Imagen fumando 2" />  
-          <img src="assets/img/fumando3.jpg" width="200" height="250" alt="Imagen fumando 3" />  
-          <img src="assets/img/fumando4.jpg" width="200" height="250" alt="Imagen fumando 4" />  
-          <img src="assets/img/fumando5.jpg" width="200" height="250" alt="Imagen fumando 5" />  
-          <img src="assets/img/fumando5.jpg" width="200" height="250" alt="Imagen fumando 6" />  
+          <img src="images/fumando1jpg.jpg" width="200" height="250" alt="Imagen fumando 1" />  
+          <img src="images/fumando2.jpg" width="200" height="250" alt="Imagen fumando 2" />  
+          <img src="images/fumando3.jpg" width="200" height="250" alt="Imagen fumando 3" />  
+          <img src="images/fumando4.jpg" width="200" height="250" alt="Imagen fumando 4" />  
+          <img src="images/fumando5.jpg" width="200" height="250" alt="Imagen fumando 5" />  
+          <img src="images/fumando5.jpg" width="200" height="250" alt="Imagen fumando 6" />  
         </div>  
 
-        <div className="row">  
         <div className="column">  
-          <img src="assets/img/fumando1jpg.jpg" width="200" height="250" alt="Imagen fumando 1" />  
-          <img src="assets/img/fumando2.jpg" width="200" height="250" alt="Imagen fumando 2" />  
-          <img src="assets/img/fumando3.jpg" width="200" height="250" alt="Imagen fumando 3" />  
-          <img src="assets/img/fumando4.jpg" width="200" height="250" alt="Imagen fumando 4" />  
-          <img src="assets/img/fumando5.jpg" width="200" height="250" alt="Imagen fumando 5" />  
-          <img src="assets/img/fumando5.jpg" width="200" height="250" alt="Imagen fumando 6" />  
-        </div>   
-
-        <div className="row">  
-        <div className="column">  
-          <img src="assets/img/fumando1jpg.jpg" width="200" height="250" alt="Imagen fumando 1" />  
-          <img src="assets/img/fumando2.jpg" width="200" height="250" alt="Imagen fumando 2" />  
-          <img src="assets/img/fumando3.jpg" width="200" height="250" alt="Imagen fumando 3" />  
-          <img src="assets/img/fumando4.jpg" width="200" height="250" alt="Imagen fumando 4" />  
-          <img src="assets/img/fumando5.jpg" width="200" height="250" alt="Imagen fumando 5" />  
-          <img src="assets/img/fumando5.jpg" width="200" height="250" alt="Imagen fumando 6" />  
-        </div>  
+          <img src="images/fumando1jpg.jpg" width="200" height="250" alt="Imagen fumando 1" />  
+          <img src="images/fumando2.jpg" width="200" height="250" alt="Imagen fumando 2" />  
+          <img src="images/fumando3.jpg" width="200" height="250" alt="Imagen fumando 3" />  
+          <img src="images/fumando4.jpg" width="200" height="250" alt="Imagen fumando 4" />  
+          <img src="images/fumando5.jpg" width="200" height="250" alt="Imagen fumando 5" />  
+          <img src="images/fumando5.jpg" width="200" height="250" alt="Imagen fumando 6" />  
+        </div> 
         
+        <div className="column">  
+          <img src="images/fumando1jpg.jpg" width="200" height="250" alt="Imagen fumando 1" />  
+          <img src="images/fumando2.jpg" width="200" height="250" alt="Imagen fumando 2" />  
+          <img src="images/fumando3.jpg" width="200" height="250" alt="Imagen fumando 3" />  
+          <img src="images/fumando4.jpg" width="200" height="250" alt="Imagen fumando 4" />  
+          <img src="images/fumando5.jpg" width="200" height="250" alt="Imagen fumando 5" />  
+          <img src="images/fumando5.jpg" width="200" height="250" alt="Imagen fumando 6" />  
+        </div> 
 
       <footer>  
         <p>Diseño Por Daniel Diaz - &copy;2024</p>  
       </footer>  
       </div>  
       </div>
-      </div>
-      </div>
+    
   )  
 } 
 

@@ -5,7 +5,7 @@ const organizacion = () => {
     <div>  
       <header>  
         <div className="holder">  
-          <img src="img/dia mundial sin tabaci.jpg" alt="Imagen sobre el día mundial sin tabaco" />  
+          <img src="images/dia mundial sin tabaci.jpg" alt="Imagen sobre el día mundial sin tabaco" />  
           <h1>amate</h1>  
         </div>  
       </header>  
@@ -35,31 +35,31 @@ const organizacion = () => {
           <h2>Staff</h2>  
           <div className="personas">  
             <div className="persona">  
-              <img src="img/empleado 1.jpeg" alt="Maria Leiva" />  
+              <img src="imgages/empleado 1.jpeg" alt="Maria Leiva" />  
               <h5>Maria Leiva</h5>  
               <h6>Gerente General</h6>  
               <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Placeat cupiditate nostrum consectetur numquam quaerat? Quo dolores, suscipit nostrum quos dolore ut est, pariatur, doloribus eligendi amet sequi labore necessitatibus similique.</p>  
             </div>  
             <div className="persona">  
-              <img src="img/empleado2.jpg" alt="Marco Aurelio" />  
+              <img src="images/empleado2.jpg" alt="Marco Aurelio" />  
               <h5>Marco Aurelio</h5>  
               <h6>Gerente General</h6>  
               <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Placeat cupiditate nostrum consectetur numquam quaerat? Quo dolores, suscipit nostrum quos dolore ut est, pariatur, doloribus eligendi amet sequi labore necessitatibus similique.</p>  
             </div>  
             <div className="persona">  
-              <img src="img/empleado3.jpg" alt="Diego Torres" />  
+              <img src="images/empleado3.jpg" alt="Diego Torres" />  
               <h5>Diego Torres</h5>  
               <h6>Gerente General</h6>  
               <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Placeat cupiditate nostrum consectetur numquam quaerat? Quo dolores, suscipit nostrum quos dolore ut est, pariatur, doloribus eligendi amet sequi labore necessitatibus similique.</p>  
             </div>  
             <div className="persona">  
-              <img src="img/empleada 4.jpg" alt="Clara Garrido" />  
+              <img src="images/empleada 4.jpg" alt="Clara Garrido" />  
               <h5>Clara Garrido</h5>  
               <h6>Gerente General</h6>  
               <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Placeat cupiditate nostrum consectetur numquam quaerat? Quo dolores, suscipit nostrum quos dolore ut est, pariatur, doloribus eligendi amet sequi labore necessitatibus similique.</p>  
             </div>  
             <div className="persona">  
-              <img src="img/empleado5.jpg" alt="Marcela Diaz" />  
+              <img src="images/empleado5.jpg" alt="Marcela Diaz" />  
               <h5>Marcela Diaz</h5>  
               <h6>Gerente General</h6>  
               <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Placeat cupiditate nostrum consectetur numquam quaerat? Quo dolores, suscipit nostrum quos dolore ut est, pariatur, doloribus eligendi amet sequi labore necessitatibus similique.</p>  

@@ -5,7 +5,7 @@ const noticias = () => {
     <div>  
      <header>  
         <div className="holder">  
-          <img src="img/dia mundial sin tabaci.jpg" alt="" />  
+          <img src="images/dia mundial sin tabaci.jpg" alt="" />  
           <h1>ama la vida</h1>  
         </div>  
       </header>  

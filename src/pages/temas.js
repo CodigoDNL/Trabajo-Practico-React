@@ -5,7 +5,7 @@ function temas() {
     <main>  
       <header>  
         <div className="holder">  
-          <img src="assets/img/dia mundial sin tabaci.jpg" alt="Imagen del día mundial sin tabaco" />  
+          <img src="images/dia mundial sin tabaci.jpg" alt="Imagen del día mundial sin tabaco" />  
           <h1>Deci que no</h1>  
         </div>  
       </header>  
@@ -26,7 +26,7 @@ function temas() {
       <main className="holder">  
         <h2>Temas</h2>  
         <div className="temas">  
-          <img src="assets/img/CAMPAÑA.jpg" alt="Campaña" />  
+          <img src="images/CAMPAÑA.jpg" alt="Campaña" />  
           <div className="info">  
             <h4>Lorem ipsum dolor sit amet.</h4>  
             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Atque quaerat quas voluptate explicabo, nobis qui assumenda animi exercitationem adipisci quis.</p>  
@@ -37,7 +37,7 @@ function temas() {
       <main className="holder">  
         <h2>Temas</h2>  
         <div className="temas">  
-          <img src="assets/img/cigarrillo.jpg" alt="Cigarrillo" />  
+          <img src="images/cigarrillo.jpg" alt="Cigarrillo" />  
           <div className="info">  
             <h4>Lorem ipsum dolor sit amet.</h4>  
             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Atque quaerat quas voluptate explicabo, nobis qui assumenda animi exercitationem adipisci quis.</p>  
@@ -48,7 +48,7 @@ function temas() {
       <main className="holder">  
         <h2>Temas</h2>  
         <div className="temas">  
-          <img src="assets/img/manos ayuda.jpg" alt="Manos de ayuda" />  
+          <img src="images/manos ayuda.jpg" alt="Manos de ayuda" />  
           <div className="info">  
             <h4>Lorem ipsum dolor sit amet.</h4>  
             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Atque quaerat quas voluptate explicabo, nobis qui assumenda animi exercitationem adipisci quis.</p>  

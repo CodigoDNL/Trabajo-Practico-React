@@ -5,7 +5,7 @@ const index = () => {
         <div>
             <header>
         <div class="holder">
-            <img src="assets/img/dia mundial sin tabaci.jpg" alt="" />
+            <img src="images/dia mundial sin tabaci.jpg" alt="" />
 
             <h1>Deja de Fumar</h1>
         </div>
@@ -26,7 +26,7 @@ const index = () => {
 
     <main className="holder">
         <div>
-            <img class="mano" src="assets/img/shutterstock_735154426-1200x797.jpg" alt="" />
+            <img class="mano" src="images/shutterstock_735154426-1200x797.jpg" alt="" />
         </div>
         <div className="columnas">
             <section className="Bienvenidos">
