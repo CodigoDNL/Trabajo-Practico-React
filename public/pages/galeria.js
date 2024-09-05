@@ -5,7 +5,7 @@ const Galeria = () => {
       <div>
       <header>  
         <div className="holder">  
-          <img src="images/dia mundial sin tabaci.jpg" alt="Imagen del día mundial sin tabaco" />  
+          <img src="public/images/dia mundial sin tabaci.jpg" alt="Imagen del día mundial sin tabaco" />  
           <h1>No es bueno</h1>  
         </div>  
       </header>  
@@ -13,12 +13,12 @@ const Galeria = () => {
       <nav>  
         <div className="holder">  
           <ul>  
-            <li><a href="src/pages/index.html">Home</a></li>  
-            <li><a href="src/pages/temas.html">Temas</a></li>  
-            <li><a className="activo" href="src/pages/galeria.html">Galeria</a></li>  
-            <li><a href="src/pages/organizacion.html">Organizacion</a></li>  
-            <li><a href="src/pages/noticias.html">Noticias</a></li>  
-            <li><a href="src/pages/Ingresar.html">Ingresar</a></li>  
+            <li><a href="pages/index.html">Home</a></li>  
+            <li><a href="pages/temas.html">Temas</a></li>  
+            <li><a className="activo" href="pages/galeria.html">Galeria</a></li>  
+            <li><a href="pages/organizacion.html">Organizacion</a></li>  
+            <li><a href="pages/noticias.html">Noticias</a></li>  
+            <li><a href="pages/Ingresar.html">Ingresar</a></li>  
           </ul>  
         </div>  
       </nav>  
