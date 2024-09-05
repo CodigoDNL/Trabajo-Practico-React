@@ -3,21 +3,18 @@
   "version": "0.0.0",
   "private": true,
   "scripts": {
-    "start": "nodemon /app.js"
+    "start": "nodemon ./bin/www"
   },
   "dependencies": {
     "cookie-parser": "~1.4.4",
     "debug": "~2.6.9",
     "express": "~4.16.1",
-    "handlebars": "^4.7.8",
+    "express-handlebars": "^8.0.1",
     "hbs": "~4.0.4",
     "http-errors": "~1.6.3",
-    "moment": "^2.30.1",
     "morgan": "~1.9.1",
-    "nodemon": "^3.1.4"
-  },
-  "description": "This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).",
-  "main": "app.js",
-  "author": "",
-  "license": "ISC"
+    "mysql2": "^3.11.0",
+    "nodemon": "^3.1.4",
+    "path": "^0.12.7"
+  }
 }

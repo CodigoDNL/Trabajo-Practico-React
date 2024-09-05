@@ -1,64 +1,43 @@
 import React from 'react';  
 
-const Galeria = () => {  
+const NoTabacoPage = ({ pageTitle, iconSrc, headerImageSrc, headerTitle, navLinks, columns, footerText }) => {  
   return (  
-      <div>
-      <header>  
-        <div className="holder">  
-          <img src="public/images/dia mundial sin tabaci.jpg" alt="Imagen del día mundial sin tabaco" />  
-          <h1>No es bueno</h1>  
-        </div>  
-      </header>  
-
-      <nav>  
-        <div className="holder">  
+    <div>  
+      <head>  
+        <title>{pageTitle}</title>  
+        <link rel="stylesheet" href="notabaco.css" />  
+        <link rel="stylesheet" href="normalize.css" />  
+        <link rel="icon" href={iconSrc} type="image/x-icon" />  
+      </head>  
+      <body>  
+        <header className="holder">  
+          <img src={headerImageSrc} alt="" />  
+          <h1>{headerTitle}</h1>  
+        </header>  
+        <nav className="holder">  
           <ul>  
-            <li><a href="pages/index.html">Home</a></li>  
-            <li><a href="pages/temas.html">Temas</a></li>  
-            <li><a className="activo" href="pages/galeria.html">Galeria</a></li>  
-            <li><a href="pages/organizacion.html">Organizacion</a></li>  
-            <li><a href="pages/noticias.html">Noticias</a></li>  
-            <li><a href="pages/Ingresar.html">Ingresar</a></li>  
+            {navLinks.map((link, index) => (  
+              <li key={index}>  
+                <a href={link.href} className={link.active ? 'activo' : ''}>{link.text}</a>  
+              </li>  
+            ))}  
           </ul>  
+        </nav>  
+        <div className="row">  
+          {columns.map((col, colIndex) => (  
+            <div className="column" key={colIndex}>  
+              {col.images.map((img, imgIndex) => (  
+                <img src={img.src} width="200px" height="250px" alt="" key={imgIndex} />  
+              ))}  
+            </div>  
+          ))}  
         </div>  
-      </nav>  
+        <footer>  
+          <p>{footerText}</p>  
+        </footer>  
+      </body>  
+    </div>  
+  );  
+};  
 
-      <div className="row">  
-        <div className="column">  
-          <img src="images/fumando1jpg.jpg" width="200" height="250" alt="Imagen fumando 1" />  
-          <img src="images/fumando2.jpg" width="200" height="250" alt="Imagen fumando 2" />  
-          <img src="images/fumando3.jpg" width="200" height="250" alt="Imagen fumando 3" />  
-          <img src="images/fumando4.jpg" width="200" height="250" alt="Imagen fumando 4" />  
-          <img src="images/fumando5.jpg" width="200" height="250" alt="Imagen fumando 5" />  
-          <img src="images/fumando5.jpg" width="200" height="250" alt="Imagen fumando 6" />  
-        </div>  
-
-        <div className="column">  
-          <img src="images/fumando1jpg.jpg" width="200" height="250" alt="Imagen fumando 1" />  
-          <img src="images/fumando2.jpg" width="200" height="250" alt="Imagen fumando 2" />  
-          <img src="images/fumando3.jpg" width="200" height="250" alt="Imagen fumando 3" />  
-          <img src="images/fumando4.jpg" width="200" height="250" alt="Imagen fumando 4" />  
-          <img src="images/fumando5.jpg" width="200" height="250" alt="Imagen fumando 5" />  
-          <img src="images/fumando5.jpg" width="200" height="250" alt="Imagen fumando 6" />  
-        </div> 
-        
-        <div className="column">  
-          <img src="images/fumando1jpg.jpg" width="200" height="250" alt="Imagen fumando 1" />  
-          <img src="images/fumando2.jpg" width="200" height="250" alt="Imagen fumando 2" />  
-          <img src="images/fumando3.jpg" width="200" height="250" alt="Imagen fumando 3" />  
-          <img src="images/fumando4.jpg" width="200" height="250" alt="Imagen fumando 4" />  
-          <img src="images/fumando5.jpg" width="200" height="250" alt="Imagen fumando 5" />  
-          <img src="images/fumando5.jpg" width="200" height="250" alt="Imagen fumando 6" />  
-        </div> 
-
-      <footer>  
-        <p>Diseño Por Daniel Diaz - &copy;2024</p>  
-      </footer>  
-      </div>  
-      </div>
-    
-  )  
-} 
-
-
-export default Galeria;  
+export default NoTabacoPage;
