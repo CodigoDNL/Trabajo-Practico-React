@@ -1,0 +1,65 @@
+<!DOCTYPE html>  
+<html lang="en">  
+
+<head>  
+    <meta charset="UTF-8">  
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">  
+    <link rel="stylesheet" href="public/stylesheets/normalize.css">  
+    <link rel="stylesheet" href="public/styesheets.notabaco.css">  
+    <link rel="icon" href="public/images/dia mundial sin tabaci.jpg" type="image/x-icon">  
+    <title>No Tabaco 2024</title>  
+</head>  
+  
+
+<body>  
+
+    <header>  
+        <div class="holder">  
+            <img src="img/dia mundial sin tabaci.jpg" alt="Imagen del día mundial sin tabaco">  
+            <h1>amate</h1>  
+        </div>  
+    </header>  
+
+    <nav>  
+        <div class="holder">  
+            <ul>  
+                <li><a href="/public/pages/index.js">Home</a></li>  
+                <li><a class="activo" href="/public/pages/temas.js">Temas</a></li>  
+                <li><a href="/public/pages/galeria.js">Galeria</a></li>  
+                <li><a href="/public/pages/organizacion.js">Organizacion</a></li>  
+                <li><a href="/public/pages/noticias.js">Noticias</a></li>  
+                <li><a href="/public/pages/ingresar.js">Ingresa</a></li>  
+            </ul>  
+        </div>  
+    </nav>  
+
+    <main class="holder">  
+        <div class="organizacion">  
+            <h2>Organizacion</h2>  
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur dolores magnam ipsa dicta ad, modi autem itaque veritatis doloribus facilis sed veniam, provident eveniet, voluptatum optio! Eligendi placeat impedit tempore?</p>  
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse molestiae sint excepturi ipsam corrupti ad quae commodi facere, animi ex debitis, culpa error quia voluptates illo dolore architecto cupiditate deleniti!</p>  
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil, tempore! Iure natus sapiente reiciendis deleniti consectetur ullam aliquid nam officia perferendis amet. Eos numquam similique iusto optio ex nihil at!</p>  
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias rem facilis nihil aut dolore nemo eveniet ratione nam tempora ab. Animi sunt ex alias veritatis voluptates aspernatur inventore quasi debitis.</p>  
+        </div>  
+        <div class="staff">  
+            <h2>Staff</h2>  
+            <div class="personas">  
+                {{#each staff}}  
+                <div class="persona">  
+                    <img src="{{img}}" alt="{{name}}">  
+                    <h5>{{name}}</h5>  
+                    <h6>{{position}}</h6>  
+                    <p>{{description}}</p>  
+                </div>  
+                {{/each}}  
+            </div>  
+        </div>  
+    </main>  
+
+    <footer>  
+        <p>Diseño Por Daniel Diaz - &copy;2024</p>  
+    </footer>  
+
+</body>  
+
+</html>  

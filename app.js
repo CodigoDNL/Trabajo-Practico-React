@@ -2,8 +2,8 @@ const express = require('express');
 const exphbs = require('express-handlebars');
 const path = require('path');
 const app = express();
-const Index = require('./public/pages/index');  // Importa las rutas específicas para manejar las operaciones CRUD de noticias.
-const Temas = require('./public/pages/temas'); const noticiasRoutes = require('./routes/Noticia');  // Importa las rutas específicas para manejar las operaciones CRUD de noticias.
+const Index = require('./public/pages/index');
+const Temas = require('./public/pages/temas'); 
 const Galeria = require('./public/pages/galeria'); 
 const Organizacion = require('./public/pages/organizacion');
 const Ingresar = require('./public/pages/ingresar');
@@ -15,6 +15,9 @@ app.engine('handlebars', exphbs());
 app.set('view engine', 'handlebars');
 
 
+app.use(express.json()); 
+app.use(express.urlencoded({ extended: false }));
+
 app.get('/', (req, res) => {
     res.render('home', {
         favicon: '/path/to/favicon.ico',
@@ -22,12 +25,12 @@ app.get('/', (req, res) => {
         headerImage: 'public/image/dia mundial sin tabaci.jpg',
         headerTitle: 'Deja de fumar',
         menuItems: [
-            { name: 'Index', url: '/public/pages/index', active: true },
-            { name: 'Galeria', url: '/public/pages/galeria', active: false },
-            { name: 'Noticias', url: '/public/pages/noticias', active: false },
-            { name: 'organizacion', url: '/public/pages/organizacion', active: false },
-            { name: 'Temas', url: '/public/pages/temas', active: false },
-            { name: 'Ingresar', url: '/public/pages/ingresar', active: false },
+            { name: 'Index', url: '/public/pages/index.js', active: true },
+            { name: 'Galeria', url: '/public/pages/galeria.js', active: false },
+            { name: 'Noticias', url: '/public/pages/noticias.js', active: false },
+            { name: 'organizacion', url: '/public/pages/organizacion.js', active: false },
+            { name: 'Temas', url: '/public/pages/temas.js', active: false },
+            { name: 'Ingresar', url: '/public/pages/ingresar.js', active: false },
 
         ],
         mainImage: '/public/image/dia mundial sin tabaci.jpg',

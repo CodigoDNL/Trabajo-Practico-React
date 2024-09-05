@@ -1,2 +1,55 @@
-<h1>{{title}}</h1>
-<p>Welcome to {{title}}</p>
+<!DOCTYPE html>  
+<html lang="en">  
+
+<head>  
+    <meta charset="UTF-8">  
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">  
+    <link rel="stylesheet" href="public/stylesheets/normalize.css">  
+    <link rel="stylesheet" href="public/styesheets.notabaco.css">  
+    <link rel="icon" href="public/images/dia mundial sin tabaci.jpg" type="image/x-icon">  
+    <title>No Tabaco 2024</title>  
+</head>  
+ 
+
+<body>  
+
+    <header>  
+        <div class="holder">  
+            <img src="public/images/dia mundial sin tabaci.jpg" alt="Imagen del día mundial sin tabaco">  
+            <h1>Deci que no</h1>  
+        </div>  
+    </header>  
+
+    <nav>  
+        <div class="holder">  
+            <ul>  
+                <li><a href="/public/pages/index.js">Home</a></li>  
+                <li><a class="activo" href="/public/pages/temas.js">Temas</a></li>  
+                <li><a href="/public/pages/galeria.js">Galeria</a></li>  
+                <li><a href="/public/pages/organizacion.js">Organizacion</a></li>  
+                <li><a href="/public/pages/noticias.js">Noticias</a></li>  
+                <li><a href="/public/pages/ingresar.js">Ingresa</a></li>  
+            </ul>  
+        </div>  
+    </nav>  
+
+    <main class="holder">  
+        <h2>Temas</h2>  
+        {{#each temas}}  
+        <div class="temas">  
+            <img src="{{img}}" alt="{{alt}}">  
+            <div class="info">  
+                <h4>{{title}}</h4>  
+                <p>{{description}}</p>  
+            </div>  
+        </div>  
+        {{/each}}  
+    </main>  
+
+    <footer>  
+        <p>Diseño Por Daniel Diaz - &copy;2024</p>  
+    </footer>  
+
+</body>  
+
+</html>  
