@@ -13,12 +13,12 @@ const Organizacion = () => {
       <nav>  
         <div className="holder">  
           <ul>  
-            <li><a href="index.html">Home</a></li>  
-            <li><a href="temas.html">Temas</a></li>  
-            <li><a href="galeria.html">Galeria</a></li>  
-            <li><a className="activo" href="organizacion.html">Organizacion</a></li>  
-            <li><a href="noticias.html">Noticias</a></li>  
-            <li><a href="Ingresar.html">Ingresa</a></li>  
+            <li><a href="public/pages/index.js">Home</a></li>  
+            <li><a href="public/pages/temas.js">Temas</a></li>  
+            <li><a href="public/pages/galeria.js">Galeria</a></li>  
+            <li><a className="activo" href="public/organizacion.js">Organizacion</a></li>  
+            <li><a href="public/noticias.js">Noticias</a></li>  
+            <li><a href="public/Ingresar.js">Ingresa</a></li>  
           </ul>  
         </div>  
       </nav>  
@@ -35,13 +35,13 @@ const Organizacion = () => {
           <h2>Staff</h2>  
           <div className="personas">  
             <div className="persona">  
-              <img src="imgages/empleado 1.jpeg" alt="Maria Leiva" />  
+              <img src="public/imgages/empleado 1.jpeg" alt="Maria Leiva" />  
               <h5>Maria Leiva</h5>  
               <h6>Gerente General</h6>  
               <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Placeat cupiditate nostrum consectetur numquam quaerat? Quo dolores, suscipit nostrum quos dolore ut est, pariatur, doloribus eligendi amet sequi labore necessitatibus similique.</p>  
             </div>  
             <div className="persona">  
-              <img src="images/empleado2.jpg" alt="Marco Aurelio" />  
+              <img src="public/images/empleado2.jpg" alt="Marco Aurelio" />  
               <h5>Marco Aurelio</h5>  
               <h6>Gerente General</h6>  
               <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Placeat cupiditate nostrum consectetur numquam quaerat? Quo dolores, suscipit nostrum quos dolore ut est, pariatur, doloribus eligendi amet sequi labore necessitatibus similique.</p>  

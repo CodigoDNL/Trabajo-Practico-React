@@ -5,7 +5,7 @@ const Noticias = () => {
     <div>  
      <header>  
         <div className="holder">  
-          <img src="images/dia mundial sin tabaci.jpg" alt="" />  
+          <img src="public/images/dia mundial sin tabaci.jpg" alt="" />  
           <h1>ama la vida</h1>  
         </div>  
       </header>  
@@ -13,12 +13,12 @@ const Noticias = () => {
       <nav>  
         <div className="holder">  
           <ul>  
-            <li><a href="src/pages/index.html">Home</a></li>  
-            <li><a href="src/pages/temas.html">Temas</a></li>  
-            <li><a className="activo" href="src/pages/galeria.html">Galeria</a></li>  
-            <li><a href="src/pages/organizacion.html">Organizacion</a></li>  
-            <li><a href="src/pages/noticias.html">Noticias</a></li>  
-            <li><a href="src/pages/Ingresar.html">Ingresar</a></li>  
+            <li><a href="public/pages/index.html">Home</a></li>  
+            <li><a href="public/pages/temas.html">Temas</a></li>  
+            <li><a className="activo" href="public/pages/galeria.html">Galeria</a></li>  
+            <li><a href="public/pages/organizacion.html">Organizacion</a></li>  
+            <li><a href="public/pages/noticias.html">Noticias</a></li>  
+            <li><a href="publi/pages/Ingresar.html">Ingresar</a></li>  
           </ul>  
         </div>  
       </nav>

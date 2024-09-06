@@ -2,10 +2,10 @@ import React from 'react';
 
 const Index = () => {
         return(
-        <div>
+        <div className='home'>
             <header>
-        <div class="holder">
-            <img src="images/dia mundial sin tabaci.jpg" alt="" />
+        <div className="holder">
+            <img src="public/images/dia mundial sin tabaci.jpg" alt="" />
 
             <h1>Deja de Fumar</h1>
         </div>
@@ -14,19 +14,19 @@ const Index = () => {
     <nav>  
         <div className="holder">  
           <ul>  
-            <li><a href="src/pages/index.html">Home</a></li>  
-            <li><a href="src/pages/temas.html">Temas</a></li>  
-            <li><a className="activo" href="src/pages/galeria.html">Galeria</a></li>  
-            <li><a href="src/pages/organizacion.html">Organizacion</a></li>  
-            <li><a href="src/pages/noticias.html">Noticias</a></li>  
-            <li><a href="src/pages/Ingresar.html">Ingresar</a></li>  
+            <li><a href="public/pages/index.html">Home</a></li>  
+            <li><a href="public/pages/temas.html">Temas</a></li>  
+            <li><a className="activo" href="public/pages/galeria.html">Galeria</a></li>  
+            <li><a href="public/pages/organizacion.html">Organizacion</a></li>  
+            <li><a href="public/pages/noticias.html">Noticias</a></li>  
+            <li><a href="public/pages/Ingresar.html">Ingresar</a></li>  
           </ul>  
         </div>  
       </nav>
 
     <main className="holder">
         <div>
-            <img class="mano" src="images/shutterstock_735154426-1200x797.jpg" alt="" />
+            <img class="mano" src="public/images/shutterstock_735154426-1200x797.jpg" alt="" />
         </div>
         <div className="columnas">
             <section className="Bienvenidos">

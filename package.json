@@ -3,7 +3,7 @@
   "version": "0.0.0",
   "private": true,
   "scripts": {
-    "start": "nodemon ./app.js"
+    "start": "node ./app.js"
   },
   "dependencies": {
     "cookie-parser": "~1.4.4",
@@ -15,6 +15,21 @@
     "morgan": "~1.9.1",
     "mysql2": "^3.11.0",
     "nodemon": "^3.1.4",
-    "path": "^0.12.7"
-  }
+    "path": "^0.12.7",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1"
+  },
+  "description": "This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).",
+  "main": "app.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/CodigoDNL/Trabajo-Practico-React.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/CodigoDNL/Trabajo-Practico-React/issues"
+  },
+  "homepage": "https://github.com/CodigoDNL/Trabajo-Practico-React#readme",
+  "devDependencies": {}
 }

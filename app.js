@@ -1,3 +1,6 @@
+import {BrouserRouter, Routes, Route} from "React-router-dom";
+import React from 'react';
+
 const express = require('express');
 const exphbs = require('express-handlebars');
 const path = require('path');
@@ -10,6 +13,18 @@ const Ingresar = require('./public/pages/ingresar');
 const Noticias = require('./public/pages/noticias');
 
 
+function app(){
+    return (
+        <div className='App'>
+            <Index/>;
+            <Temas/>;
+            <Galeria/>;
+            <Organizacion/>;
+            <Ingresar/>;
+            <Noticias/>;
+        </div>
+    )
+}
 
 app.engine('handlebars', exphbs());
 app.set('view engine', 'handlebars');
@@ -19,10 +34,10 @@ app.use(express.json());
 app.use(express.urlencoded({ extended: false }));
 
 app.get('/', (req, res) => {
-    res.render('home', {
+    res.render('index', {
         favicon: '/path/to/favicon.ico',
         title: 'Reacttemplate',
-        headerImage: 'public/image/dia mundial sin tabaci.jpg',
+        headerImage: 'public/images/dia mundial sin tabaci.jpg',
         headerTitle: 'Deja de fumar',
         menuItems: [
             { name: 'Index', url: '/public/pages/index.js', active: true },
@@ -33,7 +48,7 @@ app.get('/', (req, res) => {
             { name: 'Ingresar', url: '/public/pages/ingresar.js', active: false },
 
         ],
-        mainImage: '/public/image/dia mundial sin tabaci.jpg',
+        mainImage: '/public/images/dia mundial sin tabaci.jpg',
         welcomeText: 'Este es mi proyecto en React.',
         testimonio: {
             cita: 'Este es el mejor servicio que he usado.',
@@ -49,6 +64,10 @@ app.use(express.static('public/stylesheet/normalize.css'));
 app.use(express.static('public/stylesheets/notobaco.css'));
 
 // Iniciar el servidor
-app.listen(3000, () => {
+app.listen(newFunction(), () => {
     console.log('Servidor escuchando en el puerto 3000');
 });
+
+function newFunction() {
+    return 3000;
+}
